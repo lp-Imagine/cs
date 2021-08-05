@@ -17,6 +17,8 @@ export class LoginComponent implements OnInit {
   @Output() onCancel = new EventEmitter()
 
   token = ''
+  password = ''
+  isShowToken = false
   isLogin = !!getToken()
   submiting = false
 
@@ -30,6 +32,13 @@ export class LoginComponent implements OnInit {
   hanldeCancel() {
     this.onCancel.emit()
   }
+  
+  getTokenChange(val){
+    this.isShowToken = false;
+    if(val === 'imagine-nav'){
+      this.isShowToken = true
+    }
+  }
 
   login() {
     if (!this.token || this.token.length < 40) {
@@ -37,8 +46,6 @@ export class LoginComponent implements OnInit {
     }
 
     this.submiting = true
-//     if (this.token === 'imagine-nav') {
-//       let gitToken = "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";
       let gitToken = this.token;
       verifyToken(gitToken)
         .then(() => {
@@ -52,9 +59,5 @@ export class LoginComponent implements OnInit {
         .finally(() => {
           this.submiting = false
         })
-//     } else {
-//       this.message.success('Token 错误！')
-//       this.submiting = false
-//     }
   }
 }
