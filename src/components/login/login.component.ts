@@ -37,9 +37,9 @@ export class LoginComponent implements OnInit {
     }
 
     this.submiting = true
-//     if (this.token === 'imagine-nav') {
-//       let gitToken = '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'
-      let gitToken = this.token;
+    if (this.token === 'imagine-nav') {
+      let gitToken = "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";
+//       let gitToken = this.token;
       verifyToken(gitToken)
         .then(() => {
           setToken(gitToken);
@@ -52,9 +52,9 @@ export class LoginComponent implements OnInit {
         .finally(() => {
           this.submiting = false
         })
-//     } else {
-//       this.message.success('Token 错误！')
-//       this.submiting = false
-//     }
+    } else {
+      this.message.success('Token 错误！')
+      this.submiting = false
+    }
   }
 }
