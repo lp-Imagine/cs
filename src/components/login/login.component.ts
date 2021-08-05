@@ -33,10 +33,10 @@ export class LoginComponent implements OnInit {
     this.onCancel.emit()
   }
   
-  getTokenChange(val){
-    console.log(val,"password")
+  getTokenChange(){
+    console.log(this.password,"password")
     this.isShowToken = false;
-    if(val === 'imagine-nav'){
+    if(this.password === 'imagine-nav'){
       this.isShowToken = true
     }
   }
