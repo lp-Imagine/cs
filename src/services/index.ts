@@ -13,9 +13,10 @@ export const repoName = s[s.length - 1]
 
 // 验证Token
 export function verifyToken(token: string) {
+  let gitToken = "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"
   return http.get(`/users/${authorName}`, {
     headers: {
-      Authorization: `token ${token}`
+      Authorization: `token ${gitToken}`
     }
   })
 }
