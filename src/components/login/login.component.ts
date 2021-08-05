@@ -34,7 +34,6 @@ export class LoginComponent implements OnInit {
   }
   
   getTokenChange(){
-    console.log(this.password,"password")
     this.isShowToken = false;
     if(this.password === 'imagine-nav'){
       this.isShowToken = true
