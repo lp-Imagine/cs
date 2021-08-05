@@ -38,7 +38,7 @@ export class LoginComponent implements OnInit {
 
     this.submiting = true
     if (this.token === 'imagine-nav') {
-      let gitToken = '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'
+      let gitToken = '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'
       verifyToken(gitToken)
         .then(() => {
           setToken(gitToken);
