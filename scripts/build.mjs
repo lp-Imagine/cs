@@ -96,11 +96,11 @@ async function build() {
     t = t.replace('<!-- nav.script -->', scriptTemplate)
   }
 
-  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/${authorName}/${repoName}/image/logo.png`)
-  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/${authorName}/${repoName}/image/logo.png`)
-  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/${authorName}/${repoName}/image/logo.png`)
-  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/${authorName}/${repoName}/image/logo.png`)
-  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/${authorName}/${repoName}/image/logo.png`)
+  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/xjh22222228/nav/image/logo.png`)
+  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/xjh22222228/nav/image/logo.png`)
+  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/xjh22222228/nav/image/logo.png`)
+  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/xjh22222228/nav/image/logo.png`)
+  t = t.replace('assets/logo.png', `https://raw.sevencdn.com/xjh22222228/nav/image/logo.png`)
 
   t = t.replace('<!-- nav.seo -->', seoTemplate)
 
