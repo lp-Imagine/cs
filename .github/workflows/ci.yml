@@ -20,19 +20,8 @@ jobs:
       run: |
         npm run build
     - name: Deploy
-      run: |
-        git config --global user.name 'peng'
-        git config --global user.email '893774743@qq.com'
-        cd dist/
-        git init
-        git add -A
-        git commit -m 'create to dev'
-        git remote add origin https://github.com/lp-Imagine/nav-online.git
-        git push -u origin dev
-        
-# git remote rm origin
-#       uses: JamesIves/github-pages-deploy-action@releases/v3
-#       with:
-#         ACCESS_TOKEN: ${{ secrets.TOKEN }}
-#         BRANCH: gh-pages
-#         FOLDER: dist
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
