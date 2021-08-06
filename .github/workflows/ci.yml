@@ -24,11 +24,12 @@ jobs:
         git config --global user.name 'peng'
         git config --global user.email '893774743@qq.com'
         cd dist/
+        git init
         git add -A
         git commit -m 'create to gh-pages' -a
         git remote rm origin
-        git remote add origin [https://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@github.com/lp-Imagine/nav-online]
-        git push origin gh-pages -f
+        git remote add origin https://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@github.com/lp-Imagine/nav-online
+        git push -u origin gh-pages
         
 #       uses: JamesIves/github-pages-deploy-action@releases/v3
 #       with:
