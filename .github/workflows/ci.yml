@@ -26,8 +26,8 @@ jobs:
         cd dist/
         git init
         git add -A
-        git commit -m 'create to gh-pages' -a
-        git remote add origin https://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@github.com/lp-Imagine/nav-online
+        git commit -m 'create to gh-pages'
+        git remote add origin https://github.com/lp-Imagine/nav-online.git
         git push -u origin gh-pages
         
 # git remote rm origin
