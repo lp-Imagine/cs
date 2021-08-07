@@ -50,7 +50,7 @@ const c: IConfig = {
   simThemeConfig: {
     // 海报图
     posterImageUrls: [
-      'https://cdn.jsdelivr.net/gh/lp-Imagine/lp-Imagine@main/images/1.jpg'
+      'https://cdn.jsdelivr.net/gh/lp-Imagine/lp-Imagine@main/images/3.jpg'
     ],
     description: '这里收录多达 <b>${total}</b> 个优质网站'
   }
