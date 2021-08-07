@@ -17,8 +17,6 @@ export class LoginComponent implements OnInit {
   @Output() onCancel = new EventEmitter()
 
   token = ''
-  password = ''
-  isShowToken = false
   isLogin = !!getToken()
   submiting = false
 
@@ -31,13 +29,6 @@ export class LoginComponent implements OnInit {
 
   hanldeCancel() {
     this.onCancel.emit()
-  }
-  
-  getTokenChange(){
-    this.isShowToken = false;
-    if(this.password === 'imagine-nav'){
-      this.isShowToken = true
-    }
   }
 
   login() {
