@@ -6,9 +6,6 @@
   (nzOnOk)="login()"
 >
   <ng-container *nzModalContent>
-    <input nz-input type="password"  (change)="getTokenChange()" placeholder="请输入密码"  [(ngModel)]="password" maxlength="100" autofocus />
-    <br />
-    <p *ngIf="isShowToken">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</p>
     <p>请在下方输入您的TOKEN进行登录校验</p>
     <input nz-input placeholder="请输入TOKEN" [(ngModel)]="token" maxlength="100" autofocus />
   </ng-container>
