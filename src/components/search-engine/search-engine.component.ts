@@ -47,7 +47,6 @@ export class SearchEngineComponent {
 
   toggleEngine(e?: Event, isShow?: boolean) {
     if (this.searchEngineList.length <= 1) return
-
     if (e) {
       e.stopPropagation()
     }
