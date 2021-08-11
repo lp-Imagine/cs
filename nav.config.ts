@@ -55,5 +55,4 @@ const c: IConfig = {
     description: '这里共收录多达 <b>${total}</b> 个优质网站!'
   }
 }
-
 export default c
