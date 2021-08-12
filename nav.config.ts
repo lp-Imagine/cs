@@ -17,10 +17,10 @@ const c: IConfig = {
   homeUrl: 'https://imagine-nav.vercel.app',
 
   // 网站标题
-  title: 'imagine的导航站🌈',
+  title: 'imagine的导航小站🌈',
 
   // 网站描述
-  description: 'imagine的导航站',
+  description: 'imagine的导航小站',
 
   // 网站关键字
   keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
