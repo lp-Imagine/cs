@@ -327,7 +327,7 @@ export function setLocation() {
 }
 
 export function getDefaultSearchEngine(): ISearchEngineProps {
-  let DEFAULT = (searchEngineList[0] || {}) as ISearchEngineProps
+  let DEFAULT = (searchEngineList[1] || {}) as ISearchEngineProps
   try {
     const engine = window.localStorage.getItem(STORAGE_KEY_MAP.engine);
     if (engine) {
