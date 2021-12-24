@@ -8,7 +8,6 @@
 <br />
 <br />
 
-
 ## 预览
 **主题**
 
@@ -17,9 +16,8 @@
 - [Side 在线预览](https://imagine-nav.vercel.app/#/side)
 - [App 在线预览](https://imagine-nav.vercel.app/#/app)
 
-
 ## 特性
-`发现导航` 的理念就是做一款无需依赖后端服务既简单又方便，没有繁杂的配置和数据库等配置概念, 做到开箱即用。
+`导航站` 的理念就是做一款无需依赖后端服务既简单又方便，没有繁杂的配置和数据库等配置概念, 做到开箱即用。
 
 - 🍰 内置 `800+` 实用网站。
 - 🍰 支持 SEO。
@@ -39,10 +37,7 @@
 - 🍰 支持从Chrome书签导入
 
 
-
 ## 部署
-像数 `321` 一样简单。
-
 #### 方式一(gh-pages免费)
 1、Fork 当前项目。
 
@@ -62,8 +57,6 @@
 具体使用跟着步骤走即可 [https://github.com/apps/vercel](https://github.com/apps/vercel)
 
 
-
-
 注：如果想部署到自己的域名，那么以上教程同样适合，因为它提供了自动化部署， 之后可以通过 `CNAME` 或 `反向代理` 实现：
 
 ```conf
@@ -79,7 +72,6 @@ server {
 }
 ```
 
-
 ## 书签导入
 支持从 Chrome 书签导入（WebKit内核应该都是支持的~），会自动检测满足三级分类的导航，其他一律设为未分类：
 
@@ -87,24 +79,10 @@ server {
 
 浏览器打开 [chrome://bookmarks/](chrome://bookmarks/) 导出书签得到 html 文件, 接着从导航网站后台导入即可。
 
-
-
-
-
 ## 升级
 在升级之前请备份根目录下的 `data` 文件夹和 `nav.config.ts`, 升级完后替换即可。
 
 点击右上角 `Watch` 按钮第一时间跟踪版本升级。
-
-
-
-## 更新日志
-[CHANGELOG](https://github.com/xjh22222228/nav/releases)
-
-
-
-
-
 
 ## 开发构建
 ``` bash
@@ -122,49 +100,4 @@ yarn start
 # 打包
 yarn build
 ```
-
-
-
-## 贡献
-[点击这里](https://github.com/xjh22222228/nav/tree/master/data)
-
-Thank you for your [contribution](https://github.com/xjh22222228/nav/issues), men.
-
-<a href="https://github.com/YutHelloWorld">
-  <img src="https://avatars1.githubusercontent.com/u/20860159?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/JJJTHuang">
-  <img src="https://avatars3.githubusercontent.com/u/22817432?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/Fechin">
-  <img src="https://avatars1.githubusercontent.com/u/2541482?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/setdiaoyong">
-  <img src="https://avatars1.githubusercontent.com/u/62551864?s=460&v=4" width="30px" height="30px" />
-</a>
-
-
-
-
-
-
-## 建议
-如果有任何功能上的建议可通过 [issue](https://github.com/xjh22222228/nav/issues) 发起, Thank you.
-
-
-
-## 支持
-项目成立于 2018 年到至今一直坚持维护和开源, 经过N次的迭代与优化, 如果项目能帮到您是我的荣幸。
-
-您可以请作者喝杯咖啡，继续战斗下去（请备注Github名字）~
-
-<img src="https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
-
-感谢您的认可：
-| 姓名    | 支持金额              |
-| --------------------------------------- |----------- |
-| [aiyou9](https://github.com/aiyou9)     | ￥50.00     |
-| [lastares](https://github.com/lastares)       | ￥25.00     |
-| [MrJxySteven](https://github.com/MrJxySteven) | ￥20.00     |
-| 路人甲     | ￥50.00     |
 
